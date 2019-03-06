@@ -24,7 +24,7 @@ public class Pawn extends Piece {
         int deltaY;
         boolean legal = false;
 
-        if (this.isWhite() == true)
+        if (this.isWhite())
         {
             deltaY = -(newY-oldY);
         }
